@@ -20,7 +20,8 @@
     "abortcontroller-polyfill": "^1.5.0",
     "core-js": "^3.6.5",
     "cross-fetch": "^3.0.5",
-    "debug": "^4.1.1"
+    "debug": "^4.1.1",
+    "fhirclient": "^2.4.0"
   },
   "scripts": {
     "test": "lab test/*.test.ts",
@@ -62,10 +63,7 @@
     "webpack-merge": "^4.2.2"
   },
   "engine": "node >= 10",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smart-on-fhir/client-js.git"
-  },
+  "repository": "git+https://github.com/smart-on-fhir/client-js.git",
   "bugs": {
     "url": "https://github.com/smart-on-fhir/client-js/issues"
   },
